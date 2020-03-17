@@ -1,0 +1,35 @@
+{
+  "name": "wasi-worker",
+  "version": "0.1.0",
+  "description": "Node.js worker for running WASI code",
+  "author": "Colin J. Ihrig <cjihrig@gmail.com> (http://www.cjihrig.com/)",
+  "main": "lib/index.js",
+  "homepage": "https://github.com/cjihrig/wasi-worker#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjihrig/wasi-worker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cjihrig/wasi-worker/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "belly-button -f",
+    "pretest": "npm run lint",
+    "test": "lab -v -t 100"
+  },
+  "engines": {
+    "node": ">=13.11.0"
+  },
+  "devDependencies": {
+    "@hapi/lab": "22.x.x",
+    "belly-button": "6.x.x"
+  },
+  "keywords": [
+    "wasi",
+    "wasm",
+    "webassembly",
+    "worker",
+    "workers"
+  ]
+}
