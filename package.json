@@ -1,6 +1,6 @@
 {
   "name": "wasi-worker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node.js worker for running WASI code",
   "author": "Colin J. Ihrig <cjihrig@gmail.com> (http://www.cjihrig.com/)",
   "main": "lib/index.js",
